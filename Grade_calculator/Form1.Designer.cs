@@ -115,6 +115,7 @@
             this.Save_button.TabIndex = 7;
             this.Save_button.Text = " บักทึก";
             this.Save_button.UseVisualStyleBackColor = true;
+            this.Save_button.Click += new System.EventHandler(this.Save_button_Click);
             // 
             // text_id_student_max
             // 
@@ -122,6 +123,7 @@
             this.text_id_student_max.Name = "text_id_student_max";
             this.text_id_student_max.Size = new System.Drawing.Size(100, 27);
             this.text_id_student_max.TabIndex = 8;
+            this.text_id_student_max.TextChanged += new System.EventHandler(this.text_id_student_max_TextChanged);
             // 
             // text_id_student_min
             // 
@@ -129,6 +131,7 @@
             this.text_id_student_min.Name = "text_id_student_min";
             this.text_id_student_min.Size = new System.Drawing.Size(100, 27);
             this.text_id_student_min.TabIndex = 9;
+            this.text_id_student_min.TextChanged += new System.EventHandler(this.text_id_student_min_TextChanged);
             // 
             // text_name_max
             // 
@@ -136,6 +139,7 @@
             this.text_name_max.Name = "text_name_max";
             this.text_name_max.Size = new System.Drawing.Size(100, 27);
             this.text_name_max.TabIndex = 9;
+            this.text_name_max.TextChanged += new System.EventHandler(this.text_name_max_TextChanged);
             // 
             // text_name_min
             // 
@@ -143,6 +147,7 @@
             this.text_name_min.Name = "text_name_min";
             this.text_name_min.Size = new System.Drawing.Size(100, 27);
             this.text_name_min.TabIndex = 10;
+            this.text_name_min.TextChanged += new System.EventHandler(this.text_name_min_TextChanged);
             // 
             // text_point_max
             // 
@@ -150,6 +155,7 @@
             this.text_point_max.Name = "text_point_max";
             this.text_point_max.Size = new System.Drawing.Size(100, 27);
             this.text_point_max.TabIndex = 11;
+            this.text_point_max.TextChanged += new System.EventHandler(this.text_point_max_TextChanged);
             // 
             // text_point_min
             // 
@@ -157,6 +163,7 @@
             this.text_point_min.Name = "text_point_min";
             this.text_point_min.Size = new System.Drawing.Size(100, 27);
             this.text_point_min.TabIndex = 12;
+            this.text_point_min.TextChanged += new System.EventHandler(this.text_point_min_TextChanged);
             // 
             // text_avg_point
             // 
@@ -164,6 +171,7 @@
             this.text_avg_point.Name = "text_avg_point";
             this.text_avg_point.Size = new System.Drawing.Size(100, 27);
             this.text_avg_point.TabIndex = 13;
+            this.text_avg_point.TextChanged += new System.EventHandler(this.text_avg_point_TextChanged);
             // 
             // avg_point_label
             // 
